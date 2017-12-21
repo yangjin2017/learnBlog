@@ -1,3 +1,5 @@
+# 贪食蛇学习
+
 ```
 <canvas id="can" width="400" height="400" style="background-color: black">对不起，您的浏览器不支持canvas</canvas>
 <script>
@@ -8,7 +10,7 @@
       n,                 //蛇头下次出现位置
       ctx = document.getElementById("can").getContext("2d");
 
-  //cavas绘制
+  //canvas绘制
   function draw(seat, color) {
     ctx.fillStyle = color;
     ctx.fillRect(seat % 20 * 20 + 1, ~~(seat / 20) * 20 + 1, 18, 18);
@@ -39,6 +41,10 @@
   }();
 </script>
 ```
+
+使用canvas绘制简单的贪食蛇游戏
+
+
 
 
 
